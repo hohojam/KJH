@@ -1,13 +1,22 @@
 body {
   margin: 0;
+  box-sizing: border-box;
+  border-color: #e3f2fd;
 }
 
+a {
+  color: black;
+  text-decoration-line: none;
+}
+#poll {
+  color: ;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 8px 12px;
-  background-color: blue;
+  background-color: #50bcdf;
 }
 
 .navbar_title {
@@ -30,22 +39,40 @@ body {
   border-radius: 4px;
 }
 
-.navbarbt {
-  display: none;
-  position: absolute;
-  right: 32px;
-  font-size: 24px;
-  color: #EEEEEE;
 
+
+.container {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  display: grid;
+
+  grid-gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
 }
-@media screen and (max-width: 768px) {
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+  background: #fff;
+  text-decoration: none;
+  color: #444;
+  box-shadow: 2px 2px 5px rgba(0,0,0,.1);
+  border-radius: 0.5em;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
   }
 
   .navbarmenu {
-    display: none;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -56,21 +83,16 @@ body {
     text-align: center;
   }
 
-  .navbarbt {
-    display: block;
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
   }
+}
 
-  .navbarmenu.active,
-  .navbaricon.active {
-    display: flex;
+@media screen and (max-width: 500px) {
+  .container {
+    grid-template-columns: 1fr;
   }
-
-
-
-
-
-
-
-
-
 }
