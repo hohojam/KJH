@@ -4,6 +4,9 @@ body {
   border-color: #e3f2fd;
 }
 
+* {
+  font-family: 'Jua', sans-serif !important;
+}
 a {
   color: black;
   text-decoration-line: none;
@@ -16,7 +19,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 8px 12px;
-  background-color: #50bcdf;
+  background-color: #a6caff;
 }
 
 .navbar_title {
