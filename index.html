@@ -4,6 +4,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap" rel="stylesheet">
   <title>KoJan Helper</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,15 +17,18 @@
   <body id="body">
     <nav class="navbar">
       <div class="navbar_title">
-        <a href="#">고잔도우미</a>
-        <a class="counter"></a>
+        <h1 href="#">고잔도우미</h1>
+
       </div>
 
       <ul class="navbarmenu">
         <li>
-          <a href="https://www.ebsoc.co.kr/" target="_blank"><img src="ebsicon.png" width="15">온라인클래스</a>
-          <a href="https://hcs.eduro.go.kr/#/relogin" target="_blank"><img src="jagajindan.png" width="15">자가진단</a>
-          <a href="http://www.kojan.hs.kr/">학교홈페이지</a>
+          <a href="https://www.ebsoc.co.kr/" target="_blank"><img src="ebsicon.png" width="25"></a>
+          <a href="https://hcs.eduro.go.kr/#/relogin" target="_blank"><img src="jagajindan.png" width="25"></a>
+          <a href="https://www.instagram.com/kojan_sa/" target="_blank"><img src="instagramicon.png" width="25"></a>
+          <a href="https://www.facebook.com/gojanhighschool"><img src="facebookicon.png" width="25"></a>
+
+
 
         </li>
       </ul>
@@ -30,9 +36,9 @@
 
     <div class="container">
       <div class="box1">
-        <table width="100%" border="1" bordercolor="skyblue" cellpadding="1">
+        <table width="100%" height="100%" border="1" bordercolor="#c2daff"  cellpadding="1" >
           <tr align="center" bgclor="white">
-            <td>
+            <td width="130px">
               <select id="Schedule" onchange="change()">
                 <option value="">학년/반</option>
                 <option value="101">1-1</option>
@@ -161,12 +167,8 @@
 
       </div>
       <div class="box2">
-        <h5>급식</h5>
+        <p class="boxhead">급식</p>
           <div class="meal">
-
-
-
-
           <select id="Selectmealday" onchange="display()">
             <option value="">-날짜 선택-</option>
             <option value="0901">09-01</option>
@@ -203,27 +205,67 @@
 
           <p id="result"></p>
 
-
-
         </div>
       </div>
 
-      <div class="box3">3</div>
-      <div class="box4">4</div>
-      <div class="box5">5</div>
-      <div class="box6">6</div>
+      <div class="box3">
+        <p class="boxhead">시험일정</p>
+        <p class="counter1"></p>
+        <p class="counter2"></p>
+        <p class="counter3"></p>
+      </div>
+
+      <div class="box4">
+       <p class="boxhead">info</p>
+       <p>교문지도 규p</p>
+       <p>우산 서비스</p>
+       <p>2021학년도 자리 배치</p>
+       <p>인문사회 명장제</p>
+       <p>과학수학 명장제</p>
+     </div>
+
+     <div class="box5">
+       <p class="boxhead">dosugow</p>
+       <p>학교 도서관 자료 검색 </p>
+       <p>학교 도서관 예약 대출</p>
+    </div>
+
+    <div class="box6">
+      <p class="boxhead">jinhanghansa</p>
+      <p>학교 도서관 자료 검색 </p>
+      <p>학교 도서관 예약 대출</p>
     </div>
 
 
     <script>
-           let counter = document.querySelector('.counter');
-           let today = new Date(), //현재 날짜 가져오기
-               dday = new Date("Oct 19,2021, 00:00:00").getTime(), //디데이
-               gap = dday - today,
-               result = Math.floor(gap / (1000 * 60 * 60 * 24));
+           let counter1 = document.querySelector('.counter1');
+           let today1 = new Date(), //현재 날짜 가져오기
+               dday1 = new Date("Oct 19,2021, 00:00:00").getTime(), //디데이
+               gap1 = dday1 - today1,
+               result1 = Math.floor(gap1 / (1000 * 60 * 60 * 24));
 
-           counter.innerHTML = `1차 지필평가 D-${result}`
-       </script>
+           counter1.innerHTML = `2021년 2학기 1차 지필평가 D-${result1}`
+    </script>
+
+    <script>
+           let counter2 = document.querySelector('.counter2');
+           let today2 = new Date(), //현재 날짜 가져오기
+               dday2 = new Date("Dec 14,2021, 00:00:00").getTime(), //디데이
+               gap2 = dday2 - today2,
+               result2 = Math.floor(gap2 / (1000 * 60 * 60 * 24));
+
+           counter2.innerHTML = `2021년 2학기 2차 지필평가 D-${result2}`
+    </script>
+
+    <script>
+           let counter3 = document.querySelector('.counter3');
+           let today3 = new Date(), //현재 날짜 가져오기
+               dday3 = new Date("Nov 18,2021, 00:00:00").getTime(), //디데이
+               gap3 = dday3 - today3,
+               result3 = Math.floor(gap3 / (1000 * 60 * 60 * 24));
+
+           counter3.innerHTML = `2022학년도 대학수학능력 시험 D-${result3}`
+    </script>
   </body>
 
 

@@ -570,40 +570,40 @@ function change() {
   }
 
   if (grade=="201") {
-    document.getElementById('1').innerHTML = '일본어';
-    document.getElementById('2').innerHTML = '수학';
-    document.getElementById('3').innerHTML = '생명';
-    document.getElementById('4').innerHTML = '지구';
-    document.getElementById('5').innerHTML = '독서';
-    document.getElementById('6').innerHTML = '지구';
-    document.getElementById('7').innerHTML = '지구';
-    document.getElementById('8').innerHTML = '영어';
-    document.getElementById('9').innerHTML = '확통';
-    document.getElementById('10').innerHTML = '생명';
-    document.getElementById('11').innerHTML = '독서';
-    document.getElementById('12').innerHTML = '진로';
-    document.getElementById('13').innerHTML = '수학';
-    document.getElementById('14').innerHTML = '과연';
-    document.getElementById('15').innerHTML = '미감';
-    document.getElementById('16').innerHTML = '운동';
-    document.getElementById('17').innerHTML = '물리';
-    document.getElementById('18').innerHTML = '독서';
-    document.getElementById('19').innerHTML = '독서';
+    document.getElementById('1').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/nhgss" target="_blank">일본어</a>';
+    document.getElementById('2').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/mathcho1" target="_blank">수학</a>';
+    document.getElementById('3').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/963" target="_blank">생명</a>';
+    document.getElementById('4').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/gojanearth2" target="_blank">지구</a>';
+    document.getElementById('5').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/korean2sr" target="_blank">독서</a>';
+    document.getElementById('6').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/gojanearth2" target="_blank">지구</a>';
+    document.getElementById('7').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/gojanearth2" target="_blank">지구</a>';
+    document.getElementById('8').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/222english" target="_blank">영어</a>';
+    document.getElementById('9').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/kojanpns" target="_blank">확통</a>';
+    document.getElementById('10').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/963" target="_blank">생명</a>';
+    document.getElementById('11').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/korean2sr" target="_blank">독서</a>';
+    document.getElementById('12').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/kj14" target="_blank">진로</a>';
+    document.getElementById('13').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/mathcho1" target="_blank">수학</a>';
+    document.getElementById('14').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/rhkwp" target="_blank">과연</a>';
+    document.getElementById('15').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/koajanart" target="_blank">미감</a>';
+    document.getElementById('16').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/2021gpe2" target="_blank">운동</a>';
+    document.getElementById('17').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/rhwksanffl" target="_blank">물리</a>';
+    document.getElementById('18').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/korean2sr" target="_blank">독서</a>';
+    document.getElementById('19').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/korean2sr" target="_blank">독서</a>';
     document.getElementById('20').innerHTML = '창체';
-    document.getElementById('21').innerHTML = '영어';
-    document.getElementById('22').innerHTML = '확통';
-    document.getElementById('23').innerHTML = '확통';
-    document.getElementById('24').innerHTML = '일본어';
+    document.getElementById('21').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/222english" target="_blank">영어</a>';
+    document.getElementById('22').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/kojanpns" target="_blank">확통</a>';
+    document.getElementById('23').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/kojanchemistry1" target="_blank">화학</a>';
+    document.getElementById('24').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/nhgss" target="_blank">일본어</a>';
     document.getElementById('25').innerHTML = '창체';
-    document.getElementById('26').innerHTML = '수학';
-    document.getElementById('27').innerHTML = '영어';
-    document.getElementById('28').innerHTML = '물리';
-    document.getElementById('29').innerHTML = '영어';
+    document.getElementById('26').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/mathcho1" target="_blank">수학</a>';
+    document.getElementById('27').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/222english" target="_blank">영어</a>';
+    document.getElementById('28').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/rhwksanffl" target="_blank">물리</a>';
+    document.getElementById('29').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/222english" target="_blank">영어</a>';
     document.getElementById('30').innerHTML = '창체';
-    document.getElementById('31').innerHTML = '확통';
-    document.getElementById('32').innerHTML = '미감';
-    document.getElementById('33').innerHTML = '운동';
-    document.getElementById('34').innerHTML = '수학';
+    document.getElementById('31').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/kojanchemistry1" target="_blank">화학</a>';
+    document.getElementById('32').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/koajanart" target="_blank">미감</a>';
+    document.getElementById('33').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/2021gpe2" target="_blank">운동</a>';
+    document.getElementById('34').innerHTML = '<a href="https://kyg3.ebsoc.co.kr/class/mathcho1" target="_blank">수학</a>';
   }
 
   if (grade=="202") {
