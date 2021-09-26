@@ -5,8 +5,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap" rel="stylesheet">
   <title>KoJan Helper</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +18,6 @@
     <nav class="navbar">
       <div class="navbar_title">
         <a href="index.html"><h1>고잔도우미</h1></a>
-
       </div>
 
       <ul class="navbarmenu">
@@ -27,9 +26,6 @@
           <a href="https://hcs.eduro.go.kr/#/relogin" target="_blank"><img src="jagajindan.png" width="25"></a>
           <a href="https://www.instagram.com/kojan_sa/" target="_blank"><img src="instagramicon.png" width="25"></a>
           <a href="https://www.facebook.com/gojanhighschool"><img src="facebookicon.png" width="25"></a>
-
-
-
         </li>
       </ul>
     </nav>
@@ -159,11 +155,7 @@
 
           </tr>
 
-
-
         </table>
-
-
 
       </div>
       <div class="box2">
@@ -202,9 +194,7 @@
             <option value="0929">09-29</option>
             <option value="0930">09-30</option>
           </select>
-
           <p id="result"></p>
-
         </div>
       </div>
       <div class="box3">
@@ -213,7 +203,6 @@
         <li class="counter2"></li>
         <li class="counter3"></li>
       </div>
-
       <div class="box4">
        <p class="boxhead"><img src="schoolicon.png" width="25px" style="padding-right: 5px; ">학교생활</p>
        <a href="school_life.html" style="text-decoration: underline;"><li class="sif1">교문지도 규정</li></a>
@@ -221,54 +210,48 @@
        <a href="school_life.html" style="text-decoration: underline;"><li class="sif3">실내 배치도</li></a>
        <a href="school_life.html" style="text-decoration: underline;"><li class="sif4">과학수학 명장제</li></a>
        <a href="school_life.html" style="text-decoration: underline;"><li class="sif5">인문사회 명장제</li></a>
-     </div>
-
-     <div class="box5">
+      </div>
+      <div class="box5">
        <p class="boxhead"><img src="libicon.png" width="25px" style="padding-right: 5px;">도서관</p>
        <a href="https://reading.gglec.go.kr/r/newReading/search/schoolSearchForm.jsp" style="text-decoration: underline;"><li class="lib1">학교 도서관 자료 검색 </li></a>
        <a href="https://form.office.naver.com/form/responseView.cmd?formkey=OTdhYmU0NWUtMWRhNy00YTA4LWIyM2EtNmVmYWFlZTg3OTk0&sourceId=urlshare" style="text-decoration: underline;"><li class="lib2">학교 도서관 예약 대출</li></a>
+      </div>
+      <div class="box6">
+       <p class="boxhead"><img src="pinicon.png" width="25px" style="padding-right: 5px;">행사/공지</p>
+       <div class="event">
+        <a href="https://www.instagram.com/p/CT87EOrvYyr/" target="_blank"><img src="gongsta1.png" width="90%"></a>
+       </div>
+      </div>
     </div>
 
-    <div class="box6">
-      <p class="boxhead"><img src="pinicon.png" width="25px" style="padding-right: 5px;">행사/공지</p>
-      <div class="event">
-      <a href="https://www.instagram.com/p/CT87EOrvYyr/" target="_blank"><img src="gongsta1.png" width="90%"></a>
-     </div>
-
-
-    </div>
-
-
-    <script>
+   <script>
            let counter1 = document.querySelector('.counter1');
            let today1 = new Date(), //현재 날짜 가져오기
                dday1 = new Date("Oct 19,2021, 00:00:00").getTime(), //디데이
                gap1 = dday1 - today1,
                result1 = Math.floor(gap1 / (1000 * 60 * 60 * 24));
 
-           counter1.innerHTML = `2021년 2학기 1차 지필평가 D-${result1}`
-    </script>
-
-    <script>
+           counter1.innerHTML = `2학기 1차 지필평가 D-${result1}`
+  </script>
+   <script>
            let counter2 = document.querySelector('.counter2');
            let today2 = new Date(), //현재 날짜 가져오기
                dday2 = new Date("Dec 14,2021, 00:00:00").getTime(), //디데이
                gap2 = dday2 - today2,
                result2 = Math.floor(gap2 / (1000 * 60 * 60 * 24));
 
-           counter2.innerHTML = `2021년 2학기 2차 지필평가 D-${result2}`
-    </script>
-
-    <script>
+           counter2.innerHTML = `2학기 2차 지필평가 D-${result2}`
+  </script>
+   <script>
            let counter3 = document.querySelector('.counter3');
            let today3 = new Date(), //현재 날짜 가져오기
                dday3 = new Date("Nov 18,2021, 00:00:00").getTime(), //디데이
                gap3 = dday3 - today3,
                result3 = Math.floor(gap3 / (1000 * 60 * 60 * 24));
 
-           counter3.innerHTML = `2022학년도 대학수학능력 시험 D-${result3}`
-    </script>
+           counter3.innerHTML = `대학수학능력 시험 D-${result3}`
+  </script>
   </body>
 
 
-  </html>
+</html>
